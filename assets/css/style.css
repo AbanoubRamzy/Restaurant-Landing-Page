@@ -1,0 +1,31 @@
+body { font-family: 'Segoe UI', sans-serif; scroll-behavior: smooth; }
+    .hero { background: url('../images/background.jpg') center/cover no-repeat; color: #fff; height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; transition: all 0.3s; }
+    .hero h1 { font-size: 4rem; text-shadow: 2px 2px 6px rgba(0,0,0,0.6); }
+    .hero p { font-size: 1.5rem; margin-bottom: 20px; }
+    .menu-card img { height: 75dvh; transition: transform 0.3s; }
+    .menu-card:hover img { transform: scale(1.05); }
+    .btn-primary { transition: transform 0.3s; }
+    .btn-primary:hover { transform: scale(1.05); }
+    .testimonial { background: #f8f9fa; padding: 40px 0; }
+    .footer { background: #343a40; color: #fff; padding: 30px 0; }
+    .footer a { color: #fff; text-decoration: none; }
+    .footer a svg {
+    width: 32px;          /* Bigger icons */
+    height: 32px;
+    fill: #ffffff;        /* Default color white */
+    margin: 0 10px;
+    transition: transform 0.3s, fill 0.3s; /* Smooth hover */
+  }
+
+  .footer a:hover svg {
+    transform: scale(1.3);       /* Slight zoom */
+  }
+
+  /* Specific brand colors on hover */
+  #Facebook:hover svg { fill: #3b5998; }
+  #Instagram:hover svg { fill: #e4405f; }
+  #Twitter:hover svg { fill: #000; }
+
+
+    .section-title { margin-bottom: 40px; text-align: center; }
+    .navbar.scrolled { background-color: rgba(0,0,0,0.85) !important; transition: 0.3s; }
