@@ -32,7 +32,6 @@ A **modern, responsive landing page** for a restaurant built with **HTML5, CSS3,
 ## Project Structure 
 
 restaurant-landing-page/
-│
 ├── index.html
 ├── assets/
 │   ├── css/
@@ -40,12 +39,6 @@ restaurant-landing-page/
 │   ├── js/
 │   │   └── main.js
 │   └── images/
-│       ├── background.jpg
-│       ├── chef.jpg
-│       ├── pasta.jpg
-│       ├── steak.jpg
-│       └── salad.jpg
-└── README.md <- Project documentation 
 
 
 
